@@ -2,30 +2,12 @@
 <html>
 <head>
     <title>Multiple Promises Resolution Tracker</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-        table {
-            border-collapse: collapse;
-            width: 400px;
-        }
-        th, td {
-            border: 1px solid #000;
-            padding: 8px;
-            text-align: center;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
 </head>
 <body>
 
 <h2>Multiple Promises Resolution Tracker</h2>
 
-<table>
+<table border="1">
     <thead>
         <tr>
             <th>Promise</th>
@@ -33,12 +15,14 @@
         </tr>
     </thead>
     <tbody id="output">
-        <tr>
+        <tr id="loading">
             <td colspan="2">Loading...</td>
         </tr>
     </tbody>
 </table>
 
+<script src="script.js"></script>
 </body>
 </html>
+
 
